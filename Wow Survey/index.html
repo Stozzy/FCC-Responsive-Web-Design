@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Stozzy's WoW Survey Form</title>
+	</head>
+	<body>
+		<div id="wrapper">
+			<header>
+				<h1 id="page-title">World of Warcraft User Survey</h1>
+				<h2 id="sub-title">Tells us about your WoW experience</h2>
+			</header>
+			<section id="gamer-info">
+				<h2>Account Information</h2>
+				<div id="account-stuff">
+					<input type="text" id="account-name" placeholder="enter account name here" maxlength="25" required>
+					<input type="email" id="account-email" placeholder="enter email address" require>
+					<input type="number" placeholder="years played" min="0" max="20" style="width: 100px;" required>
+				</div>
+				<div id="gender-stuff">
+					<input type="radio" name="gender" value="male" checked/> Male<br>
+					<input type="radio" name="gender" value="female"/> Female<br>
+					<input type="radio" name="gender" value="noyb"/> Noyb<br>
+				</div>
+			</section>
+			<section id="gameing-info">
+				<h2>Gaming History</h2>
+				<div id="faction">
+					<select id="dropdown" required>
+						<option value="alliance">For the Alliance!</option>
+						<option value="horde">For the HORDE!</option>
+						<option value="agnostic">For Azeroth!</option>
+					</select>
+				</div>
+				<div id="favorite-classes">
+					<h3>What are your favorite classes?</h3>
+					<ul>
+						<li><input type="checkbox" name="Dk-class" value="Dk"/> Death Knight</li>
+						<li><input type="checkbox" name="Dh-class" value="Dh"/> Demon Hunter</li>
+						<li><input type="checkbox" name="Dr-class" value="Dr"/> Druid</li>
+						<li><input type="checkbox" name="Hu-class" value="Hu"/> Hunter</li>
+						<li><input type="checkbox" name="Ma-class" value="Ma"/> Mage</li>
+						<li><input type="checkbox" name="Mo-class" value="Mo"/> Monk</li>
+						<li><input type="checkbox" name="Pa-class" value="Pa"/> Paladin</li>
+						<li><input type="checkbox" name="Pr-class" value="Pr"/> Priest</li>
+						<li><input type="checkbox" name="Ro-class" value="Ro"/> Rogue</li>
+						<li><input type="checkbox" name="Sh-class" value="Sh"/> Shaman</li>
+						<li><input type="checkbox" name="Wl-class" value="Wl"/> Warlock</li>
+						<li><input type="checkbox" name="Wr-class" value="Wr"/> Warrior</li>
+					</ul>
+				</div>
+				<div id="favorite-expansion">
+					<h3>What are your favorite expansion?</h3>
+					<ul>
+						<li><input type="checkbox" name="expansion1" value="Burn"/> Burning Crusade</li>
+						<li><input type="checkbox" name="expansion2" value="Wrat"/> Wrath of the Lich King</li>
+						<li><input type="checkbox" name="expansion3" value="Cata"/> Cataclysm</li>
+						<li><input type="checkbox" name="expansion4" value="Mist"/> Mists of Pandaria</li>
+						<li><input type="checkbox" name="expansion5" value="Warl"/> Warlords of Draenor</li>
+						<li><input type="checkbox" name="expansion6" value="Legi"/> Legion</li>
+						<li><input type="checkbox" name="expansion7" value="Batt"/> Battle for Azeroth</li>
+					</ul>
+				</div>
+			</section>
+			<section id="additional-info">
+				<h2>Tell us one of your favorite things about World of Warcraft</h2>
+				<div id="comments">
+					<textarea row="1" col="1" placeholder="enter comments here, if any"></textarea>
+					<!-- <button id="submit" type="submit" form="survey-form" value="Submit">Submit</button> -->				
+				</div>
+			<footer>Revised by Stozzy - April 2019</footer>
+		</div>
+	</body>
+</html>
