@@ -1,0 +1,79 @@
+/* site colors (RGB):
+blizzard logo: 0,154,228
+nav bar: 11,13,18
+sub-nav bar highight: 100,73,41
+brightest highlight on arrow head: 253,227,200
+*/
+
+* {
+	margin: 0px;
+}
+
+body {
+	background-color: rgb(11,13,18);
+	color: rgb(0,154,228);
+}
+
+#wrapper {
+	width: 80%;
+	margin: auto;
+	text-align: center;
+}
+
+section {
+	padding: 10px;
+	margin: 10px;
+}
+
+h2 {
+	margin: 20px;
+}
+
+h3 {
+	margin: 10px
+}
+
+li {
+	list-style-type: none;
+}
+
+#account-stuff > input {
+	padding: 5px;
+	margin: 5px;
+}
+
+#gender-stuff {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 10px;
+}
+
+#gender-stuff > input {
+	margin: 0px 5px 0px 20px;
+}
+
+#favorite-classes, #favorite-expansion {
+	padding-bottom: 25px;
+}
+
+#favorite-classes ul {
+	display: flex;
+	justify-content: space-evenly;
+	align-content: space-around;
+}
+
+#favorite-expansions ul {
+	display: flex;
+	justify-content: space-evenly;
+	align-content: space-around;
+}
+
+textarea {
+	height: 100px;
+	width: 80%;
+}
+
+footer {
+	margin: 10px;
+}
